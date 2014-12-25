@@ -1,0 +1,36 @@
+Usage: boxotron.py [options]
+
+Options:
+-h, --help show this help message and exit
+-l LENGTH, --length=LENGTH
+Length of box in mm
+-w WIDTH, --width=WIDTH
+width of box in mm
+-d DEPTH, --depth=DEPTH
+depth of box in mm
+-t THICKNESS, --thickness=THICKNESS
+thickness of material in mm
+-c CLEARANCE, --clearance=CLEARANCE
+clearance between panels of material in mm
+-i INSET, --inset=INSET
+inset to middle of slot material in mm
+-s SLOT_LENGTH, --slot_length=SLOT_LENGTH
+length of slot in mm
+-f FILENAME, --file_name=FILENAME
+file_name
+-j JOIN_EVERY, --join_every=JOIN_EVERY
+join every x in mm
+--type=TYPE box type = slot , bolt
+-b BOLT, --bolt_size=BOLT
+bolt size in mm
+--bolt_length=BOLT_LENGTH
+bolt length in mm
+--bolt_clearance=BOLT_TAB_CLEARANCE
+clearance between bolt and tab , multiple of bolt size
+--nut_multiplier=NUT_MULTIPLIER
+nut size - multiple of bolt size
+--nut_depth=NUT_DEPTH
+nut depth - multiple of bolt size
+
+
+Specify a non-existent file name and it will make a default one of that name
